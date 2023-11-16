@@ -60,6 +60,7 @@ class Profile extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 50,
+                    backgroundImage: AssetImage("assets/images/user.png"),
                   ),
                   Column(
                     children: [
